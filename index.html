@@ -4,7 +4,7 @@
     <script>
     //the function getTime() is called every 1000 milliseconds
     var time = setInterval(getTime, 1000);
-    
+   
     function getTime() {
         //retrieval of the date
         var today = new Date();
@@ -17,7 +17,7 @@
         if(today.getHours() > 12) {
           hrs = (hrs - 12);
         } else if(today.getHours() < 10) {
-            //if hrs is less than 10, add a '0' infront to adhere to standard time format
+            //if hrs is less than 10, add a '0' infront to adhere to standard time format 
             hrs = '0' + hrs;
         }
         //if hrs is less than 10, add a '0' infront to adhere to standard time format
